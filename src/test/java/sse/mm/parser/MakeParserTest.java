@@ -9,12 +9,11 @@ public class MakeParserTest {
 
 	@Before
 	public void setUp() throws Exception {
-		parser = new MakeParser(
-				"/home/seiyak/Documents/sse/test/infr/Makefile");
+		parser = new MakeParser("/home/seiyak/Documents/sse/test/infr/Makefile");
 	}
-	
+
 	@Test
-	public void testModify(){
+	public void testModify() {
 		parser.modify();
 	}
 
